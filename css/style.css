@@ -5,9 +5,9 @@
    ==================================================================== */
 
    :root {
-    /* Color Palette - Figma Neon Cyan & Pure Black */
-    --bg-dark: #000000; /* Pure Black */
-    --bg-secondary: #000000;
+    /* Color Palette - Stellenbosch Theme */
+    --bg-dark: #61223B; /* Stellenbosch Maroon */
+    --bg-secondary: #4A1A2D; /* Darker Maroon for depth */
     
     --bg-mesh-1: #00E5FF; /* Neon Cyan */
     --bg-mesh-2: #00B4D8; /* Deep Cyan */
