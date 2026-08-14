@@ -608,13 +608,13 @@
 
   .slider-caption-below h3 {
     margin-bottom: 0.5rem;
-    color: #ffffff;
+    color: var(--text-main);
   }
 
   .slider-caption-below p {
     margin-bottom: 0;
     font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--text-muted);
   }
 
   .glass-control {
@@ -1257,20 +1257,20 @@
       width: 96%; 
       top: 10px; 
       border-radius: 30px; 
-      background: rgba(20, 20, 22, 0.95); 
+      background: var(--card-bg-solid); 
     }
-    .glass-nav .navbar-brand { color: #ffffff !important; }
-    .glass-nav .nav-link { color: rgba(255, 255, 255, 0.7) !important; }
+    .glass-nav .navbar-brand { color: var(--text-main) !important; }
+    .glass-nav .nav-link { color: var(--text-muted) !important; }
     .glass-nav .nav-link.active { color: var(--accent-primary-bright) !important; }
     .navbar-collapse {
-      background: rgba(20, 20, 22, 0.98);
+      background: var(--card-bg-solid);
       padding: 1rem;
       border-radius: var(--radius-md);
       border: 1px solid rgba(0, 229, 255, 0.2);
       margin-top: 1rem;
     }
     .navbar-collapse .nav-link { color: rgba(255, 255, 255, 0.7) !important; }
-    .navbar-collapse .nav-link:hover { color: #ffffff !important; }
+    .navbar-collapse .nav-link:hover { color: var(--text-main) !important; }
     .banner-img { height: 250px; }
   }
   
