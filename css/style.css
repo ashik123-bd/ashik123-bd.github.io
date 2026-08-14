@@ -484,14 +484,14 @@
   .hero-avatar-wrapper {
     position: relative;
     width: 100%;
-    max-width: 130px;
+    max-width: 160px; /* Increased from 130px */
     margin: 0 auto;
   }
   
   .avatar-glow {
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle, rgba(10, 132, 255, 0.25) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.25) 0%, transparent 70%);
     filter: blur(20px);
     z-index: 1;
     border-radius: 50%;
@@ -505,13 +505,15 @@
   
   .hero-avatar {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
-    border: 3px solid rgba(10, 132, 255, 0.3);
+    border: 3px solid rgba(0, 229, 255, 0.3);
     position: relative;
     z-index: 2;
     padding: 4px;
     background: var(--card-bg-solid);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(10, 132, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 229, 255, 0.1);
     animation: float 6s ease-in-out infinite;
   }
   
