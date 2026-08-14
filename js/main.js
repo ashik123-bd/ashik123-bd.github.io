@@ -256,4 +256,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }
+    
+    // ── Gallery See More Toggle ──
+    const seeMoreBtn = document.getElementById('seeMoreGalleryBtn');
+    const galleryMasonry = document.querySelector('.gallery-masonry');
+    if (seeMoreBtn && galleryMasonry) {
+      seeMoreBtn.addEventListener('click', () => {
+        galleryMasonry.classList.toggle('show-all');
+        if (galleryMasonry.classList.contains('show-all')) {
+          seeMoreBtn.innerHTML = 'See Less <i class="bi bi-chevron-up ms-1"></i>';
+        } else {
+          seeMoreBtn.innerHTML = 'See More <i class="bi bi-chevron-down ms-1"></i>';
+          // Smooth scroll back to gallery section
+          document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    }
   });
