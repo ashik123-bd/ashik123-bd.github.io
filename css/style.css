@@ -266,7 +266,7 @@
   
   .btn-primary-glow:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 30px var(--accent-primary-glow), 0 0 20px rgba(10, 132, 255, 0.3);
+    box-shadow: 0 10px 30px var(--accent-primary-glow), 0 0 20px rgba(0, 229, 255, 0.3);
     color: #fff !important;
   }
   
@@ -281,7 +281,7 @@
   }
   
   .btn-glass:hover {
-    background: rgba(10, 132, 255, 0.1);
+    background: rgba(0, 229, 255, 0.1);
     border-color: var(--accent-primary);
     color: var(--accent-primary-bright) !important;
     transform: translateY(-3px);
@@ -296,7 +296,7 @@
   }
   
   .btn-outline-glass:hover {
-    background: rgba(10, 132, 255, 0.08);
+    background: rgba(0, 229, 255, 0.08);
     border-color: var(--accent-primary);
     color: var(--accent-primary-bright);
   }
@@ -1227,15 +1227,21 @@
     .border-end-glass { border-right: none; border-bottom: 1px solid var(--border-color); }
     .custom-cursor, .custom-cursor-follower { display: none; }
     * { cursor: auto; }
-    .glass-nav { padding: 1rem 0; background: rgba(13, 17, 23, 0.97); }
+    .glass-nav { 
+      padding: 1rem; 
+      width: 96%; 
+      top: 10px; 
+      border-radius: 30px; 
+      background: rgba(20, 20, 22, 0.95); 
+    }
     .glass-nav .navbar-brand { color: #ffffff !important; }
     .glass-nav .nav-link { color: rgba(255, 255, 255, 0.7) !important; }
     .glass-nav .nav-link.active { color: var(--accent-primary-bright) !important; }
     .navbar-collapse {
-      background: rgba(13, 17, 23, 0.98);
+      background: rgba(20, 20, 22, 0.98);
       padding: 1rem;
       border-radius: var(--radius-md);
-      border: 1px solid rgba(10, 132, 255, 0.1);
+      border: 1px solid rgba(0, 229, 255, 0.2);
       margin-top: 1rem;
     }
     .navbar-collapse .nav-link { color: rgba(255, 255, 255, 0.7) !important; }
