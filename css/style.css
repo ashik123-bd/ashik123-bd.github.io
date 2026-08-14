@@ -55,10 +55,18 @@
     --bg-dark: #f8f9fa; 
     --bg-secondary: #ffffff;
     
+    /* Meshes stay bright for the background glow */
     --bg-mesh-1: #00E5FF;
     --bg-mesh-2: #00B4D8;
     --bg-mesh-3: #4ADE80;
     
+    /* Darken accents so text/buttons are visible against white */
+    --accent-primary: #008FA3;
+    --accent-primary-bright: #008FA3;
+    --accent-primary-deep: #006B80;
+    --accent-gold: #008FA3;
+    --accent-gold-hover: #006B80;
+
     --glass-bg: rgba(255, 255, 255, 0.7); 
     --glass-border: rgba(0, 0, 0, 0.1);
     --glass-highlight: rgba(255, 255, 255, 0.5);
