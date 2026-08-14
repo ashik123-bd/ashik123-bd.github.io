@@ -4,31 +4,6 @@
    ==================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
-    // ── Theme Toggle Logic ──
-    const themeToggle = document.getElementById('themeToggle');
-    const themeIcon = document.getElementById('themeIcon');
-    const currentTheme = localStorage.getItem('theme') || 'dark';
-
-    if (currentTheme === 'light') {
-      document.body.classList.add('light-theme');
-      if (themeIcon) themeIcon.classList.replace('bi-sun-fill', 'bi-moon-stars-fill');
-    }
-
-    if (themeToggle) {
-      themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('light-theme');
-        const isLight = document.body.classList.contains('light-theme');
-        
-        if (isLight) {
-          localStorage.setItem('theme', 'light');
-          if (themeIcon) themeIcon.classList.replace('bi-sun-fill', 'bi-moon-stars-fill');
-        } else {
-          localStorage.setItem('theme', 'dark');
-          if (themeIcon) themeIcon.classList.replace('bi-moon-stars-fill', 'bi-sun-fill');
-        }
-      });
-    }
-
     // ── Navbar scroll effect ──
     const navbar = document.querySelector('.navbar');
     const backToTop = document.querySelector('.back-to-top');

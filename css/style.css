@@ -50,41 +50,7 @@
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  
-  body.light-theme {
-    --bg-dark: #f8f9fa; 
-    --bg-secondary: #ffffff;
-    
-    /* Meshes stay bright for the background glow */
-    --bg-mesh-1: #00E5FF;
-    --bg-mesh-2: #00B4D8;
-    --bg-mesh-3: #4ADE80;
-    
-    /* Darken accents so text/buttons are visible against white */
-    --accent-primary: #008FA3;
-    --accent-primary-bright: #008FA3;
-    --accent-primary-deep: #006B80;
-    --accent-gold: #008FA3;
-    --accent-gold-hover: #006B80;
 
-    --glass-bg: rgba(255, 255, 255, 0.7); 
-    --glass-border: rgba(0, 0, 0, 0.1);
-    --glass-highlight: rgba(255, 255, 255, 0.5);
-    --glass-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
-    
-    --text-main: #212529;
-    --text-muted: #6c757d;
-    --text-muted-light: rgba(108, 122, 137, 0.8);
-    
-    --card-bg: rgba(255, 255, 255, 0.6); 
-    --card-bg-solid: #ffffff;
-    --alt-section-bg: rgba(248, 249, 250, 0.8); 
-    --border-color: rgba(0, 0, 0, 0.1);
-    
-    --nav-bg: rgba(255, 255, 255, 0.4);
-    --nav-bg-scrolled: rgba(255, 255, 255, 0.85);
-    --caption-bg: rgba(255, 255, 255, 0.7);
-  }
   
   /* =================================================================
      GLOBAL RESETS & TYPOGRAPHY
@@ -350,7 +316,7 @@
     padding: 1rem 2rem;
     border-radius: 50px;
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-    background: var(--nav-bg, rgba(20, 20, 22, 0.4));
+    background: rgba(20, 20, 22, 0.4);
     backdrop-filter: blur(50px) saturate(200%);
     -webkit-backdrop-filter: blur(50px) saturate(200%);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -359,7 +325,7 @@
   
   .glass-nav.scrolled {
     padding: 0.7rem 2rem;
-    background: var(--nav-bg-scrolled, rgba(28, 28, 30, 0.75));
+    background: rgba(28, 28, 30, 0.75);
     width: 85%;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
   }
@@ -611,7 +577,7 @@
   }
 
   .slider-caption-below {
-    background: var(--caption-bg, rgba(13, 17, 23, 0.4));
+    background: rgba(13, 17, 23, 0.4);
     border-top: 1px solid rgba(10, 132, 255, 0.15);
     padding: 1.5rem;
     text-align: center;
