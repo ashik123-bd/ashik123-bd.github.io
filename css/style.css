@@ -418,17 +418,13 @@
   }
   
   .section-subtitle {
-    display: inline-block;
-    font-size: 0.9rem;
+    display: block;
+    font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--accent-primary-bright);
     margin-bottom: 0.5rem;
-    background: rgba(10, 132, 255, 0.08);
-    padding: 0.3rem 1rem;
-    border-radius: 20px;
-    border: 1px solid rgba(10, 132, 255, 0.2);
   }
   
   .section-title {
