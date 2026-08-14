@@ -1,41 +1,41 @@
 /* ====================================================================
    MD ASHIK AHMMED – Premium Dynamic Portfolio CSS
-   Theme: Dark Emerald & Gold – Nature Meets Tech Elegance
+   Theme: Soft Slate, Sky Blue & Neon Purple – Modern Tech Elegance
    Fonts: Outfit (Headings) & Inter (Body)
    ==================================================================== */
 
    :root {
-    /* Color Palette - Dark Emerald & Gold Theme */
-    --bg-dark: #0d1117;
-    --bg-secondary: #111921;
-    --bg-mesh-1: #0b2e1f;
-    --bg-mesh-2: #1a0e2e;
-    --bg-mesh-3: #0d2818;
+    /* Color Palette - Slate & Sky Blue Theme */
+    --bg-dark: #1e293b;
+    --bg-secondary: #334155;
+    --bg-mesh-1: #312e81;
+    --bg-mesh-2: #0f766e;
+    --bg-mesh-3: #4c1d95;
     
-    --glass-bg: rgba(17, 25, 33, 0.75);
-    --glass-border: rgba(16, 185, 129, 0.12);
-    --glass-highlight: rgba(16, 185, 129, 0.06);
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+    --glass-bg: rgba(30, 41, 59, 0.75);
+    --glass-border: rgba(14, 165, 233, 0.15);
+    --glass-highlight: rgba(255, 255, 255, 0.05);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
     
-    --text-main: #e2e8f0;
-    --text-muted: #94a3b8;
-    --text-muted-light: #7c8da4;
+    --text-main: #f8fafc;
+    --text-muted: #cbd5e1;
+    --text-muted-light: #94a3b8;
     
-    --accent-primary: #10b981;
-    --accent-primary-bright: #34d399;
-    --accent-primary-glow: rgba(16, 185, 129, 0.25);
-    --accent-primary-deep: #059669;
+    --accent-primary: #0ea5e9;
+    --accent-primary-bright: #38bdf8;
+    --accent-primary-glow: rgba(14, 165, 233, 0.35);
+    --accent-primary-deep: #0284c7;
     
-    --accent-gold: #f59e0b;
-    --accent-gold-glow: rgba(245, 158, 11, 0.25);
-    --accent-gold-hover: #d97706;
+    --accent-gold: #a855f7;
+    --accent-gold-glow: rgba(168, 85, 247, 0.35);
+    --accent-gold-hover: #9333ea;
     
-    --navy-deep: #e2e8f0;
-    --navy-secondary: #10b981;
-    --card-bg: rgba(17, 25, 33, 0.8);
-    --card-bg-solid: #131b24;
-    --alt-section-bg: rgba(13, 17, 23, 0.6);
-    --border-color: rgba(16, 185, 129, 0.1);
+    --navy-deep: #f8fafc;
+    --navy-secondary: #0ea5e9;
+    --card-bg: rgba(51, 65, 85, 0.6);
+    --card-bg-solid: #1e293b;
+    --alt-section-bg: rgba(15, 23, 42, 0.4);
+    --border-color: rgba(255, 255, 255, 0.08);
     
     /* Typography - Fixed Base Size & Fluid Headings */
     --font-heading: 'Outfit', sans-serif;
