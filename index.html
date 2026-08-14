@@ -35,7 +35,7 @@
     <div class="container">
       <a class="navbar-brand" href="#hero">ASHIK <span>AHMMED</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
-        <i class="bi bi-list" style="color:#00e5ff; font-size:1.5rem;"></i>
+        <i class="bi bi-list" style="color:#0a84ff; font-size:1.5rem;"></i>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul class="navbar-nav">
@@ -91,17 +91,21 @@
                 </div>
 
                 <div class="hero-socials d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
-                  <a href="data/CV/CV_of_ASHIK.pdf" target="_blank" class="btn btn-primary-glow btn-sm me-2"><i
-                      class="bi bi-download me-1"></i>CV</a>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#cvModal" class="btn btn-primary-glow btn-sm"><i
+                      class="bi bi-eye me-1"></i>View CV</a>
                   <a href="#" data-bs-toggle="modal" data-bs-target="#motivationModal"
-                    class="btn btn-outline-glass btn-sm me-2"><i class="bi bi-file-earmark-text me-1"></i>Motivation
+                    class="btn btn-outline-glass btn-sm"><i class="bi bi-file-earmark-text me-1"></i>Motivation
                     Letter</a>
-                  <a href="https://github.com/ashik123-bd" target="_blank" class="btn btn-glass btn-sm" aria-label="GitHub"><i
-                      class="bi bi-github"></i></a>
-                  <a href="https://scholar.google.com/citations?user=5vE-NKMAAAAJ&hl=en" target="_blank"
-                    class="btn btn-glass btn-sm" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/ashik9840" target="_blank" class="btn btn-glass btn-sm" aria-label="LinkedIn"><i
-                      class="bi bi-linkedin"></i></a>
+                  <div class="d-flex gap-2">
+                    <a href="https://github.com/ashik123-bd" target="_blank" class="btn btn-glass btn-sm" aria-label="GitHub"><i
+                        class="bi bi-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=5vE-NKMAAAAJ&hl=en" target="_blank"
+                      class="btn btn-glass btn-sm" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+                    <a href="https://orcid.org/0009-0008-2936-9668" target="_blank"
+                      class="btn btn-glass btn-sm" aria-label="ORCID"><i class="bi bi-person-vcard"></i></a>
+                    <a href="https://www.linkedin.com/in/ashik9840" target="_blank" class="btn btn-glass btn-sm" aria-label="LinkedIn"><i
+                        class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -113,25 +117,7 @@
           <div class="glass-card hero-slider-card p-2 p-md-3">
             <div id="portfolioCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
               data-bs-interval="4000">
-              <!-- Indicators -->
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="6"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="7"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="8"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="9"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="10"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="11"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="12"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="13"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="14"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="15"></button>
-              </div>
+
 
               <!-- Carousel inner -->
               <div class="carousel-inner rounded-4 overflow-hidden h-100">
@@ -296,8 +282,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="glass-card objective-card reveal p-5">
-            <div class="quote-icon"><i class="bi bi-quote"></i></div>
-            <p class="objective-text">
+            <p class="objective-text" style="text-align: justify;">
               A dedicated and research-driven Computer Science graduate with a strong academic record (<span
                 class="text-gradient fw-bold">CGPA 3.71/4.0</span>) and hands-on experience in deep learning, computer
               vision, and explainable AI. Passionate about leveraging artificial intelligence to solve real-world
@@ -1195,6 +1180,27 @@
             </div>
             <div class="text-center mt-4">
               <a href="#" class="btn btn-primary-glow">Download PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- CV Modal -->
+    <div class="modal fade glass-modal" id="cvModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Curriculum Vitae</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="p-2 bg-soft-glass rounded" style="height: 80vh;">
+              <iframe src="data/CV/CV_of_ASHIK.pdf#view=FitH" width="100%" height="100%" style="border: none; border-radius: 8px;"></iframe>
+            </div>
+            <div class="text-center mt-4">
+              <a href="data/CV/CV_of_ASHIK.pdf" download="CV_of_ASHIK.pdf" class="btn btn-primary-glow"><i class="bi bi-download me-1"></i>Download CV</a>
             </div>
           </div>
         </div>
