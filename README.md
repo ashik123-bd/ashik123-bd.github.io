@@ -1,5 +1,7 @@
 # MD ASHIK AHMMED - Personal Portfolio
 
+🌐 **Live Website:** [https://ashik123-bd.github.io/](https://ashik123-bd.github.io/)
+
 This is the source code for the personal and academic portfolio of MD ASHIK AHMMED.
 
 ## Structure
